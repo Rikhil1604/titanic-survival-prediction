@@ -1,5 +1,6 @@
 Basic requirements/prerequisites to understand or create this mini project
 
+python   #used version 3.10 for stability
 pandas
 numpy
 seaborn
