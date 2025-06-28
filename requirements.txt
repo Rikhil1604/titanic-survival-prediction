@@ -1,0 +1,8 @@
+Basic requirements/prerequisites to understand or create this mini project
+
+pandas
+numpy
+seaborn
+matplotlib
+scikit-learn
+jupyterlab
