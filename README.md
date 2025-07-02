@@ -1,4 +1,5 @@
-As someone new to machine learning, I wanted a project that would help me apply what I’ve learned, explore real-world data, and get hands-on with the entire data science workflow. The Titanic dataset is perfect for beginners like me — it’s small, well-documented, and teaches you everything from data cleaning and visualization to building models and making predictions. Started learning Exploratory Data Analysis from Krish Naik's YT Channel not long ago.
+As someone new to Machine Learning, I wanted a project that would help me apply what I’ve learned, explore real-world data, and get hands-on with the entire data science workflow. The Titanic dataset is perfect for beginners like me — it’s small, well-documented, and teaches you everything from data cleaning and visualization to building models and making predictions. If you're a beginner too, following this project step-by-step will give you the confidence to take on bigger challenges and enter your first Kaggle competition! 
+
 This project helped me understand how ML works in practice, not just in theory. If you're a beginner too, following this project step-by-step will give you the confidence to take on bigger challenges and even enter your first Kaggle competition!
 
 
@@ -21,7 +22,6 @@ titanic-survival-prediction/
 ├── data/ # Dataset files (train/test CSVs from Kaggle)
 ├── notebooks/ # Jupyter Notebooks for EDA and modeling
 ├── output/ # Generated predictions for Kaggle
-├── src/ # Optional: helper functions/scripts
 ├── requirements.txt # Python package dependencies
 ├── README.md # Project overview (this file)
 
@@ -33,7 +33,7 @@ titanic-survival-prediction/
 - NumPy, Pandas
 - Seaborn, Matplotlib
 - Scikit-learn
-- Jupyter Notebook
+- Jupyter Notebook 6.5.4(stable)
 
 ---
 
@@ -53,15 +53,12 @@ titanic-survival-prediction/
    - Convert categorical to numeric using one-hot encoding
 
 4. **Model Building**
-   - Logistic Regression (baseline)
-   - Random Forest (improved performance)
-   - Optional: KNN, SVM, XGBoost
-
+   - Logistic Regression (baseline model)
+     
 5. **Model Evaluation**
    - Accuracy score
    - Confusion matrix
-   - Cross-validation (optional)
-
+  
 6. **Prediction & Submission**
    - Predict on the test set
    - Export CSV for Kaggle
@@ -70,7 +67,7 @@ titanic-survival-prediction/
 
 📈 Results
 
-Achieved an accuracy of ~80% using Random Forest with basic feature engineering.
+Achieved an accuracy of ~80% using just Logistic Regression with basic feature engineering.
 
 ---
 
