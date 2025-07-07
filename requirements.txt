@@ -1,9 +1,15 @@
 Basic requirements/prerequisites to understand or create this mini project
 
-python   #used version 3.10 for stability
-pandas
-numpy
-seaborn
-matplotlib
-scikit-learn
-jupyterlab
+# Libraries for data manipulation
+pandas==1.5.3
+numpy==1.24.2
+
+# Libraries for visualization
+matplotlib==3.6.3
+seaborn==0.11.2
+
+# Machine learning library
+scikit-learn==1.1.2
+
+# Optional for Jupyter Notebook
+jupyter==6.5.4 #(stable with plots)
